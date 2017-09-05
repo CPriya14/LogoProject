@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JUSPAY Logo</title>
+  </head>
+  <body>
+ <header>
+ 	<style>
+  h1{
+  font-size:90px;
+  text-align:center;
+  margin-top:15px;
+  margin-bottom:10px;
+  }
+    </style>
+	
+  <h1 style="font-family:Arial">JUSPAY</h1>
+ </header>
+
+    <canvas id="canvas" width="600" height="600" style="border: 1px solid black; display: block; margin: auto;" ></canvas>
+    <script type="text/javascript" src="square.js"></script>
+    <script type="text/javascript" src="circle.js"></script>
+    <script type="text/javascript" src="arc1.js"></script>
+    <script type="text/javascript" src="arc2.js"></script>
+	<script type="text/javascript" src="rotate.js"></script>
+    <script>
+      var can = document.getElementById('canvas');
+      var context = can.getContext('2d');
+
+      // translate context to center of canvas
+      context.translate(can.width / 2, can.height / 2);
+
+      // rotate 45 degrees clockwise
+      context.rotate(3.14/ 4);
+
+    </script>
+	
+ 
+	
+  </body>
+</html>
