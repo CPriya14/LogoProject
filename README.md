@@ -1,6 +1,8 @@
 # LogoProject
 
                                         ## PROJECT LOGO  ##
+https://priya1114.github.io/LogoProject/
+
 This Project Displays up the Juspuy Logo.This is done using purescript.
 
 #Prerequisites:
